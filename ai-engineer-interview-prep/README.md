@@ -28,7 +28,7 @@ You're short on time. Here's the plan:
 | `machine_learning/regression/linear_regression/` | The full deep dive | **Fully implemented** |
 | `machine_learning/regression/ridge_regression/` | Ridge regression | Planned |
 | `machine_learning/regression/lasso_regression/` | Lasso regression | Planned |
-| `machine_learning/classification/` | Logistic regression, SVMs, trees, etc. | Planned |
+| `machine_learning/classification/logistic_regression/` | The classification deep dive | **Fully implemented** |
 | `machine_learning/clustering/` | K-means, DBSCAN, hierarchical | Planned |
 | `machine_learning/dimensionality_reduction/` | PCA, t-SNE, UMAP | Planned |
 | `machine_learning/evaluation_regularization/` | Cross-validation, bias-variance, tuning | Planned |
@@ -37,6 +37,8 @@ You're short on time. Here's the plan:
 
 ---
 
-**Currently fully implemented: Linear Regression (deep + intuitive)**
+**Currently fully implemented: Linear Regression & Logistic Regression (deep + intuitive)**
 
-Start here: [`machine_learning/regression/linear_regression/README.md`](machine_learning/regression/linear_regression/README.md)
+Start here:
+- [`machine_learning/regression/linear_regression/README.md`](machine_learning/regression/linear_regression/README.md)
+- [`machine_learning/classification/logistic_regression/README.md`](machine_learning/classification/logistic_regression/README.md)

@@ -11,24 +11,29 @@
 | Area | Topics | Status |
 |------|--------|--------|
 | **Regression** | Linear Regression, Ridge, Lasso, Elastic Net | Linear Regression done |
-| **Classification** | Logistic Regression, SVM, Decision Trees, Random Forest, XGBoost | Planned |
+| **Classification** | Logistic Regression, SVM, Decision Trees, Random Forest, XGBoost | Logistic Regression done |
 | **Clustering** | K-Means, DBSCAN, Hierarchical, Gaussian Mixture Models | Planned |
 | **Dimensionality Reduction** | PCA, t-SNE, UMAP, SVD | Planned |
 | **Evaluation & Regularization** | Cross-validation, Bias-Variance, Hyperparameter Tuning | Planned |
 
 ---
 
-## When to Use Regression (Plain English)
+## When to Use Classification vs. Regression (Plain English)
 
-Use regression when your **target variable is a number** — something you can measure on a scale.
+Use **regression** when your **target variable is a number** — something you can measure on a scale.
 
 - Predicting house prices? **Regression.**
 - Predicting someone's salary? **Regression.**
-- Predicting whether someone clicks a button? **Not regression** — that's classification.
+
+Use **classification** when your **target is a category** — a label, a bucket, a yes/no.
+
+- Will the customer churn? **Classification.**
+- Is this email spam? **Classification.**
+- Predicting whether someone clicks a button? **Classification.**
 
 The simplest mental test: **"Can I average two predictions and get a meaningful answer?"**
-- Average of two prices = makes sense = regression.
-- Average of "cat" and "dog" = nonsense = classification.
+- Average of two prices = makes sense → **regression**.
+- Average of "spam" and "not spam" = nonsense → **classification**.
 
 ---
 
